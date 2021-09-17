@@ -1,3 +1,5 @@
+// callbacks takes two parameter
+
 module.exports = (x, y, callback) => {
   if (x <= 0 || y <= 0)
     setTimeout(

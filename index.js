@@ -7,6 +7,7 @@ var rect = require("./rectangle");
 function solveRect(l, b) {
     console.log("Solving for rectangle with l = "
         + l + " and b = " + b);
+    // callbacks takes two parameter
     rect(l, b, (err, rectangle) => {
         if (err) {
             console.log("ERROR: ", err.message);
